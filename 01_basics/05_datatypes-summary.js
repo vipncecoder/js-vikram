@@ -38,3 +38,25 @@ console.log(typeof(myFunction)); //object function
 
 //to find datatype use function typeOf(operator or variable name);
 console.log(typeof(null)); //object
+
+//************************************************
+
+//Stack--- (primitive type) , Heap--(non primitive type) 
+let myYoutubeName="vikramcode";   //variable myYoutubeName will go in stack
+let anotherName= myYoutubeName; 
+anotherName="vickycode"   
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne={
+    email: "user@gmail.com", //it will go intoo heap
+    upi: "vicky@ybl"
+}
+
+let userTwo =userOne;   //userTwo will take data from heap using userOne reference
+userTwo.email="vikram@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
