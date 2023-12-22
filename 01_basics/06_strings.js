@@ -61,3 +61,11 @@ console.log(newString1);
 const name2="    Vikram      ";
 const newName2= name2.trim();
 console.log(newName2);
+
+const url= "https://vikram.com//vikram%21kumar"
+console.log(url.replace('%' ,'_'));
+
+const name3= "i am a good boy and want to be pro in js";
+console.log(name3.split(' '));
+
+
