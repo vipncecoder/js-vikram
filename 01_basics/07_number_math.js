@@ -7,7 +7,7 @@ const num2=123.423;
 console.log(num2.toPrecision(3));
 
 const num3=10000000000;
-console.log(num3.toLocaleString(en-IN));
+console.log(num3.toLocaleString('en-IN'));
 
 
 // in console of browser we can also see what properties we have associated with strings, number etc
