@@ -39,7 +39,7 @@
 // console.log(Math.max(3,4,1,6,5));
 // console.log(Math.min(3,6,2,7,8));
 
-console.log(Math.random()); //it will different values each time between 0 to 1
+console.log(Math.random()); //it will generate different values each time between 0 to 1
 // if we need other domain we need to manipulate the query using logic
 console.log(Math.ceil(Math.random() * 10) + 1);
 
