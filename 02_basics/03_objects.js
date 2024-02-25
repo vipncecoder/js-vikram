@@ -10,6 +10,7 @@ const mySym= Symbol('key1');
 const user={
     name: "vikram",
     age: 18,
+    "full name":"vikram kmar",
     [mySym]: "mykey",//for using symbol we have to declare in []
     location: "delhi",
     emailId: "vikram@gmail.com",
@@ -23,6 +24,7 @@ const user={
 // console.log(user.age);
 // console.log(user.emailId);
 // console.log(user[mySym]);
+console.log(["full name"]);
 
 // we can also change object's keys value and also can freeze object if we do not want to make changes in objects
 
